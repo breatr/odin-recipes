@@ -1,16 +1,42 @@
-.flex-container{
+* {
+    background-color: rgb(121, 121, 121);
+    outline: 1px solid rgb(165, 161, 161);
+    box-sizing: border-box;
+}
+
+.flex-container {
 
 
 }
-.flex-container div{
 
-    background-color: peachpuff;
-    padding: 20px;
-    border: 10px rgb(6, 6, 6);
-    margin: 10px;
-    height: 100px;
+#odin-recipes {
+    padding: 50px;
+    background-color: rgb(131, 178, 178);
+    border: 5px black;
     flex-direction: column;
     justify-content: center;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    margin: 40px;
+}
+
+.flex-container div {
+    background-color: rgb(76, 74, 74);
+    padding: 20px;
+    margin: 40px;
+    margin-inline-start: auto;
+
+}
+
+.recipe-list  {
+    display: flex;
+    font-family: monospace;
+    font-size: large;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+
 }
